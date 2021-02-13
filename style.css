@@ -1,0 +1,140 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;900&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background: #3ba175;
+  color: #fff;
+}
+
+.header {
+  position: absolute;
+}
+
+.header img {
+  padding: 41px 10px 10px;
+}
+
+.hero-section {
+  position: absolute;
+  left: 110px;
+}
+
+.content {
+  position: relative;
+}
+
+h1 {
+  position: relative;
+  width: 1134px;
+  height: 158px;
+  top: 178px;
+
+  font-style: normal;
+  font-weight: 900;
+  font-size: 80px;
+  line-height: 99%;
+
+  align-items: center;
+  text-transform: capitalize;
+}
+
+.content img {
+  position: absolute;
+  width: 759px;
+  height: 768px;
+  top: 0px;
+  display: flex;
+  left: 485px;
+}
+
+h2 {
+  position: absolute;
+  width: 610px;
+  height: 47px;
+  top: 352px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 40px;
+  line-height: 47px;
+
+  display: flex;
+  align-items: center;
+}
+
+span {
+  position: absolute;
+  width: 455px;
+  height: 120px;
+  top: 445px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 134%;
+  /* or 24px */
+
+  display: flex;
+  align-items: center;
+
+  color: #ffffff;
+
+  opacity: 0.75;
+}
+
+.subscribe {
+  position: relative;
+  width: 354px;
+  height: 55px;
+  top: 475px;
+  background: rgba(196, 196, 196, 0.25);
+  border-radius: 5px;
+}
+
+input {
+  height: 56px;
+  width: 233px;
+  border: none;
+  background-color: transparent;
+}
+
+::placeholder {
+  padding: 10px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #ffffff;
+  opacity: 0.75;
+}
+
+button {
+  position: relative;
+  width: 114px;
+  height: 50px;
+  background: rgba(145, 255, 207, 0.8);
+  border-radius: 5px;
+  border: none;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  color: #fff;
+}
+h3 {
+  position: absolute;
+  width: 296px;
+  height: 15px;
+  top: 693px;
+
+  font-style: normal;
+  font-weight: 300;
+  font-size: 13px;
+  line-height: 15px;
+  display: flex;
+  align-items: center;
+}
